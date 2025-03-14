@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const Footer = () => {
@@ -14,7 +14,7 @@ const Footer = () => {
           <h2 className="text-lg sm:text-xl font-bold text-teal dark:text-teal mb-3">تواصلوا معنا</h2>
           <ul className="space-y-2 text-sm sm:text-base">
             <li>رقم التواصل: <a href="tel:+963967428420" className="hover:text-gold">00963967428420</a></li>
-            <li>الإيميل: <a href="mailto:info@charismamarble.com" className="hover:text-gold">info@charismamarble.com</a></li>
+            <li>الإيميل: <a href="mailto:info@charismamarble.com" className="hover:text-gold">charismamarble@gmail.com</a></li>
             <li>العنوان: سوريا، اللاذقية، شارع أوتستراد الثورة</li>
           </ul>
         </div>
@@ -30,9 +30,33 @@ const Footer = () => {
         <div>
           <h2 className="text-lg sm:text-xl font-bold text-teal dark:text-teal mb-3">تابعونا</h2>
           <div className="flex gap-4">
-            <motion.a href="https://facebook.com" whileHover={{ scale: 1.2 }} className="text-teal dark:text-teal hover:text-gold"><FaFacebookF size={20} /></motion.a>
-            <motion.a href="https://instagram.com" whileHover={{ scale: 1.2 }} className="text-teal dark:text-teal hover:text-gold"><FaInstagram size={20} /></motion.a>
-            <motion.a href="https://wa.me/963967428420" whileHover={{ scale: 1.2 }} className="text-teal dark:text-teal hover:text-gold"><FaWhatsapp size={20} /></motion.a>
+            <motion.a 
+              href="https://www.facebook.com/share/15LYSxwt9U/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              whileHover={{ scale: 1.2 }} 
+              className="text-teal dark:text-teal hover:text-gold"
+            >
+              <FaFacebookF size={20} />
+            </motion.a>
+            <motion.a 
+              href="https://www.instagram.com/marble_charisma?igsh=NHJncDltZjJ2c2N2" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              whileHover={{ scale: 1.2 }} 
+              className="text-teal dark:text-teal hover:text-gold"
+            >
+              <FaInstagram size={20} />
+            </motion.a>
+            <motion.a 
+              href="https://wa.me/963967428420" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              whileHover={{ scale: 1.2 }} 
+              className="text-teal dark:text-teal hover:text-gold"
+            >
+              <FaWhatsapp size={20} />
+            </motion.a>
           </div>
         </div>
       </div>
