@@ -19,7 +19,7 @@ import Seventeen from '../../assets/images/17.jpg';
 import Eighteen from '../../assets/images/18.jpg';
 import Nineteen from '../../assets/images/19.jpg';
 import twenty from '../../assets/images/20.jpg';
-import twentyone	 from '../../assets/images/21.jpg';
+import twentyone from '../../assets/images/21.jpg';
 import twentytwo from '../../assets/images/22.jpg';
 import twenty3 from '../../assets/images/23.jpg';
 import twenty4 from '../../assets/images/24.jpg';
@@ -32,42 +32,39 @@ import twenty10 from '../../assets/images/30.jpg';
 import thirty1 from '../../assets/images/31.jpg';
 import thirty2 from '../../assets/images/32.jpg';
 
-
-
 const productsData = [
-  { id: 1, name: 'إمبيرال بيج', description: 'رخام كلاسيكي بلون بيج فاتح.', image: one, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء إمبيرال بيج' },
-  { id: 2, name: 'سيلفيا فاتح', description: 'رخام فاتح بلون كريمي ناعم.', image: two, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء سيلفيا فاتح' },
-  { id: 3, name: 'صنى سكراتش ', description: 'رخام أبيض بأوردة ذهبية فاخرة.', image: three, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كالاكاتا' },
-  { id: 4, name: 'أنتيك جولدن كريم ', description: 'رخام بملمس طبيعي بلون بيج.', image: four, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام ترافرتين' },
-  { id: 5, name: 'أنتيك صنى  ', description: 'رخام وردي ناعم وأنيق.', image: five, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام روزا بورتوغال' },
-  { id: 6, name: 'صنى بوش هامرد  ', description: 'رخام كريمي بلون دافئ.', image: six, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كريم مارفل' },
-  { id: 7, name: 'صنى سبلت فاس ', description: 'رخام أبيض بنقوش بيضاوية.', image: seven, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام أرابيسكاتو' },
-  { id: 8, name: 'سينا بيرال سبلت فاس  ', description: 'رخام بيج بخطوط مميزة.', image: eight, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام بريشيا أونيسياتا' },
-  { id: 9, name: 'تريستا  ', description: 'رخام بيج بخطوط ناعمة.', image: nine, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام دايو ريالي' },
-  { id: 10, name: 'جلاله ', description: 'رخام بيج كلاسيكي ناعم.', image: ten, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام بوتيتشينو' },
-  { id: 11, name: 'سماحه ', description: 'رخام أبيض نقي بخطوط رمادية.', image: elven, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام ستاتواريو' },
-  { id: 12, name: 'امبيرادور   ', description: 'رخام بني دافئ وأنيق.', image: Twelve, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام إمبرادور' },
-  { id: 13, name: 'مارون  ', description: 'رخام شفاف بلون عسلي.', image: Thirteen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام أونيكس عسلي' },
-  { id: 14, name: 'ميلى برون  ', description: 'رخام أبيض نقي ولامع.', image: Fourteen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام بيانكو سيفيك' },
-  { id: 15, name: ' رخام كالاكاتا أورو', description: 'رخام أحمر بخطوط بيضاء.', image: Fifteen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام ليفانتو' },
-  { id: 16, name: ' كالاكاتا إكسترا ', description: 'رخام أسود بأوردة ذهبية.', image: Sixteen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام بورتورو' },
-  { id: 17, name: '  رخام روجو أليكانتي', description: 'رخام بني فاتح أنيق.', image: Seventeen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام إمبرادور فاتح' },
-  { id: 18, name: '   سيبولينو أوندولاتو', description: 'رخام فضي بملمس طبيعي.', image: Eighteen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام ترافرتين فضي' },
-  { id: 19, name: 'رخام الأرز ', description: 'رخام أبيض فاخر بأوردة رمادية.', image: Nineteen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كالاكاتا بورغيني' },
-  { id: 20, name: 'رخام كريما مارفيل  ', description: 'رخام أبيض بخطوط بنفسجية.', image: twenty, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام فيولا كالاكاتا' },
-  { id: 21, name: 'رخام بيانكو فيناتو ', description: 'رخام أبيض كلاسيكي بخطوط رمادية.', image: twentyone, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كرارا' },
-  { id: 22, name: 'رخام أرابيسكاتوس أورو  ', description: 'رخام أسود بخطوط بيضاء.', image: twentytwo , whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام نيرون ماركينا' },
-  { id: 23, name: '  رخام سانت موريتز', description: 'رخام أخضر غامق وأنيق.', image: twenty3, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام فيردي ألبي' },
-  { id: 24, name: 'رخام بلاتينوس', description: 'رخام أبيض بأوردة ذهبية لامعة.', image: twenty4, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كالاكاتا أورو' },
-  { id: 25, name: 'رخام ماندالا سوبريم', description: 'رخام بني فاتح طبيعي.', image: twenty5, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام ترافرتين نوچه' },
-  { id: 26, name: 'رخام كارارا فيناتينو   ', description: 'رخام شفاف بلون أزرق نادر.', image: twenty6, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام أونيكس أزرق' },
-  { id: 27, name: ' رخام بيانكو راينو', description: 'رخام بني غامق أنيق.', image: twenty7, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام إمبريال' },
-  { id: 28, name: ' رخام بيانكو غويا ', description: 'رخام بني بنقوش طبيعية.', image: twenty8, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام راين فورست' },
-  { id: 29, name: 'رخام كلكتا مايكل أنجلو', description: 'رخام أسود بأوردة بيضاء وذهبية.', image: twenty9, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام فانتاستيك' },
-  { id: 30, name: 'رخام أرابيسكاتوس ', description: 'رخام أبيض نقي لامع جدًا.', image: twenty10 , whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام ثاسوس' },
-  { id: 31, name: ' رخام كانا', description: 'رخام بني غامق بخطوط خفيفة.', image: thirty1, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام أزيزي' },
-  { id: 32, name: 'بيانكو بيرلا ', description: 'رخام أبيض لامع بخطوط دقيقة.', image: thirty2, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام سانت ريمو' }
- 
+  { id: 1, name: 'إمبيرال بيج', description: 'رخام أنيق بملمس كلاسيكي ونقوش طبيعية.', image: one, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء إمبيرال بيج' },
+  { id: 2, name: 'سيلفيا فاتح', description: 'رخام ناعم بتصميم عصري ولمسة أنيقة.', image: two, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء سيلفيا فاتح' },
+  { id: 3, name: 'صنى سكراتش', description: 'رخام مميز بنقوش طبيعية وملمس دافئ.', image: three, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء صنى سكراتش' },
+  { id: 4, name: 'أنتيك جولدن كريم', description: 'رخام فاخر بملمس عتيق وتصميم أنيق.', image: four, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء أنتيك جولدن كريم' },
+  { id: 5, name: 'أنتيك صنى', description: 'رخام كلاسيكي بطابع دافئ ونقوش طبيعية.', image: five, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء أنتيك صنى' },
+  { id: 6, name: 'صنى بوش هامرد', description: 'رخام مطروق بملمس خشن وتصميم أنيق.', image: six, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء صنى بوش هامرد' },
+  { id: 7, name: 'صنى سبلت فاس', description: 'رخام مقسّم بطبقات مميزة وطابع طبيعي.', image: seven, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء صنى سبلت فاس' },
+  { id: 8, name: 'سينا بيرال سبلت فاس', description: 'رخام أنيق بطبقات طبيعية وتصميم مميز.', image: eight, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء سينا بيرال سبلت فاس' },
+  { id: 9, name: 'تريستا', description: 'رخام هادئ بخطوط ناعمة وتصميم أنيق.', image: nine, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء تريستا' },
+  { id: 10, name: 'جلاله', description: 'رخام كلاسيكي بملمس ناعم وتصميم متجانس.', image: ten, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء جلاله' },
+  { id: 11, name: 'سماحه', description: 'رخام نقي بخطوط خفيفة ولمسة أنيقة.', image: elven, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء سماحه' },
+  { id: 12, name: 'امبيرادور', description: 'رخام فاخر بتصميم أنيق وملمس دافئ.', image: Twelve, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء امبيرادور' },
+  { id: 13, name: 'مارون', description: 'رخام غني بملمس طبيعي وتصميم مميز.', image: Thirteen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء مارون' },
+  { id: 14, name: 'ميلى برون', description: 'رخام أنيق بدرجات دافئة وتصميم ناعم.', image: Fourteen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء ميلى برون' },
+  { id: 15, name: 'رخام كالاكاتا أورو', description: 'رخام فاخر بأوردة دقيقة وملمس أنيق.', image: Fifteen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كالاكاتا أورو' },
+  { id: 16, name: 'كالاكاتا إكسترا', description: 'رخام مميز بخطوط ناعمة وتصميم أنيق.', image: Sixteen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء كالاكاتا إكسترا' },
+  { id: 17, name: 'رخام روجو أليكانتي', description: 'رخام فاخر بتصميم أنيق ولمسة مميزة.', image: Seventeen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام روجو أليكانتي' },
+  { id: 18, name: 'سيبولينو أوندولاتو', description: 'رخام مموج بخطوط طبيعية وتصميم أنيق.', image: Eighteen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء سيبولينو أوندولاتو' },
+  { id: 19, name: 'رخام الأرز', description: 'رخام دافئ مستوحى من الخشب بملمس طبيعي.', image: Nineteen, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام الأرز' },
+  { id: 20, name: 'رخام كريما مارفيل', description: 'رخام ناعم بملمس متجانس وتصميم أنيق.', image: twenty, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كريما مارفيل' },
+  { id: 21, name: 'رخام بيانكو فيناتو', description: 'رخام كلاسيكي بخطوط ناعمة وملمس أنيق.', image: twentyone, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام بيانكو فيناتو' },
+  { id: 22, name: 'رخام أرابيسكاتوس أورو', description: 'رخام فاخر بأوردة دقيقة وتصميم أنيق.', image: twentytwo, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام أرابيسكاتوس أورو' },
+  { id: 23, name: 'رخام سانت موريتز', description: 'رخام نقي بلمعان فائق وملمس أملس.', image: twenty3, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام سانت موريتز' },
+  { id: 24, name: 'رخام بلاتينوس', description: 'رخام أنيق بملمس معدني وتصميم مميز.', image: twenty4, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام بلاتينوس' },
+  { id: 25, name: 'رخام ماندالا سوبريم', description: 'رخام فريد بتصميم دائري وملمس أنيق.', image: twenty5, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام ماندالا سوبريم' },
+  { id: 26, name: 'رخام كارارا فيناتينو', description: 'رخام كلاسيكي بخطوط ناعمة وتصميم أنيق.', image: twenty6, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كارارا فيناتينو' },
+  { id: 27, name: 'رخام بيانكو راينو', description: 'رخام لامع بملمس فاخر وتصميم نقي.', image: twenty7, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام بيانكو راينو' },
+  { id: 28, name: 'رخام بيانكو غويا', description: 'رخام طبيعي بخطوط دقيقة وملمس أنيق.', image: twenty8, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام بيانكو غويا' },
+  { id: 29, name: 'رخام كلكتا مايكل أنجلو', description: 'رخام فاخر بأوردة مميزة وتصميم أنيق.', image: twenty9, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كلكتا مايكل أنجلو' },
+  { id: 30, name: 'رخام أرابيسكاتوس', description: 'رخام أنيق بملمس مميز.', image: twenty10, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام أرابيسكاتوس' },
+  { id: 31, name: 'رخام كانا', description: 'رخام غني بخطوط ناعمة وتصميم أنيق.', image: thirty1, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كانا' },
+  { id: 32, name: 'بيانكو بيرلا', description: 'رخام لؤلؤي بملمس ناعم وتصميم لامع.', image: thirty2, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء بيانكو بيرلا' }
 ];
 
 export default productsData;
