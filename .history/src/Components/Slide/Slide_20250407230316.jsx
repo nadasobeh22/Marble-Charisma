@@ -8,9 +8,11 @@ const Slide = () => {
   const [isBrowsePressed, setIsBrowsePressed] = useState(false);
   const [isContactPressed, setIsContactPressed] = useState(false);
 
+  // دالة للتعامل مع الضغط أو اللمس لزر "تصفح المجموعة"
   const handleBrowsePressStart = () => setIsBrowsePressed(true);
   const handleBrowsePressEnd = () => setIsBrowsePressed(false);
 
+  // دالة للتعامل مع الضغط أو اللمس لزر "تواصل معنا"
   const handleContactPressStart = () => setIsContactPressed(true);
   const handleContactPressEnd = () => setIsContactPressed(false);
 

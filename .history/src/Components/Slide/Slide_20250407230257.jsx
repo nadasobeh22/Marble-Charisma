@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom';
 import slide1 from '../../assets/images/slide.jpg';
 
 const Slide = () => {
-
+  // حالة لتتبع الضغط على كل زر
   const [isBrowsePressed, setIsBrowsePressed] = useState(false);
   const [isContactPressed, setIsContactPressed] = useState(false);
 
+  // دالة للتعامل مع الضغط أو اللمس لزر "تصفح المجموعة"
   const handleBrowsePressStart = () => setIsBrowsePressed(true);
   const handleBrowsePressEnd = () => setIsBrowsePressed(false);
 
+  // دالة للتعامل مع الضغط أو اللمس لزر "تواصل معنا"
   const handleContactPressStart = () => setIsContactPressed(true);
   const handleContactPressEnd = () => setIsContactPressed(false);
 

@@ -11,6 +11,7 @@ const Slide = () => {
   const handleBrowsePressStart = () => setIsBrowsePressed(true);
   const handleBrowsePressEnd = () => setIsBrowsePressed(false);
 
+  // دالة للتعامل مع الضغط أو اللمس لزر "تواصل معنا"
   const handleContactPressStart = () => setIsContactPressed(true);
   const handleContactPressEnd = () => setIsContactPressed(false);
 
