@@ -32,7 +32,7 @@ const Slide = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1, duration: 1 }}
             >
-              اكتشف مجموعتنا الفريدة من الرخام الطبيعي لإضفاء لمسة من الفخامة على مساحاتك.
+              اكتشفي مجموعتنا الفريدة من الرخام الطبيعي لإضفاء لمسة من الفخامة على مساحاتك.
             </motion.p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <motion.button

@@ -16,7 +16,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus('جاري الإرسال...');
+    setStatus('جاري الإرسال...');ل
 
     const formspreeEndpoint = 'https://formspree.io/f/xqapazdr'; // تأكد إن هذا الـ ID صحيح ومرتبط بإيميلك
 
@@ -51,7 +51,7 @@ const Contact = () => {
           <div className="bg-offwhite dark:bg-darkslate p-4 sm:p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
             <h2 className="text-xl sm:text-2xl font-bold text-teal dark:text-teal mb-4 sm:mb-6 font-poppins">معلومات التواصل</h2>
             <ul className="text-charcoal dark:text-lightgray space-y-3 sm:space-y-4 text-sm sm:text-base">
-              <li>البريد الإلكتروني: <a href="mailto:info@marbleluxe.com" className="hover:text-gold">charismamarble@gmail.com</a></li>
+              <li>البريد الإلكتروني: <a href="mailto:info@marbleluxe.com" className="hover:text-gold">info@marbleluxe.com</a></li>
               <li>الهاتف: <a href="tel:00963967428420" className="hover:text-gold">00963967428420</a></li>
               <li>العنوان: اللاذقية - أوتستراد الثورة</li>
             </ul>
