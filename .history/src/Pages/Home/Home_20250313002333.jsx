@@ -6,8 +6,7 @@ import Slide from '../../Components/Slide/Slide';
 import FeaturedProducts from '../../Components/FeaturedProducts/FeaturedProducts';
 import Testimonials from '../../Components/Testimonials/Testimonials';
 import WhyUs from '../../Components/WhyUs/WhyUs';
-import NationalMarblePage from '../NationalMarblePage/NationalMarblePage';
-import SinkSection from '../../Components/SinkSection/SinkSection';
+
 
 const Home = ({ cart, setCart, setIsCartOpen }) => {
   const [loading, setLoading] = useState(true);
@@ -24,24 +23,11 @@ const Home = ({ cart, setCart, setIsCartOpen }) => {
         <div className="overflow-hidden">
           <Layout>
             <Slide />
-            <div className="-mt-8 sm:-mt-12 lg:-mt-16">
-              <NationalMarblePage />
-            </div>
-            <div className="-mt-4 sm:-mt-6 lg:-mt-8">
-              <SinkSection />
-            </div>
-            <div className="-mt-4 sm:-mt-6 lg:-mt-8">
-              <FeaturedProducts />
-            </div>
-            <div className="-mt-4 sm:-mt-6 lg:-mt-8">
-              <Services />
-            </div>
-            <div className="-mt-4 sm:-mt-6 lg:-mt-8">
-              <Testimonials />
-            </div>
-            <div className="-mt-4 sm:-mt-6 lg:-mt-8">
-              <WhyUs />
-            </div>
+            <FeaturedProducts />
+            <Services />
+            <Testimonials />
+            <WhyUs />
+          
           </Layout>
         </div>
       )}

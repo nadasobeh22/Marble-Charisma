@@ -22,5 +22,8 @@ const ProductCard = ({ product }) => {
     </div>
   );
 };
-
+const productsData = [
+  // ... المنتجات السابقة ...
+  
+];
 export default ProductCard;

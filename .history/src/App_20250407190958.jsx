@@ -8,7 +8,6 @@ import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 
 
-
 function App() {
   const [cart, setCart] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -23,7 +22,7 @@ function App() {
           <Route path="/product/:id" element={<ProductDetails cart={cart} setCart={setCart} setIsCartOpen={setIsCartOpen} />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-        
+          <Route path="/national-marble" element={<NationalMarblePage />} />
         </Routes>
         {isCartOpen && <Cart cart={cart} setCart={setCart} onClose={() => setIsCartOpen(false)} />}
       </div>

@@ -31,24 +31,7 @@ import twenty9 from '../../assets/images/29.jpg';
 import twenty10 from '../../assets/images/30.jpg';
 import thirty1 from '../../assets/images/31.jpg';
 import thirty2 from '../../assets/images/32.jpg';
-import thirty3 from '../../assets/images/33.jpg';
-import thirty4 from '../../assets/images/34.jpg';
-import thirty5 from '../../assets/images/35.jpg';
-import thirty6 from '../../assets/images/36.jpg';
-import thirty7 from '../../assets/images/37.jpg';
-import thirty8 from '../../assets/images/38.jpg';
-import thirty9 from '../../assets/images/39.jpg';
-import forty from '../../assets/images/40.jpg';
-import forty1 from '../../assets/images/41.jpg';
-import forty2 from '../../assets/images/42.jpg';
-import forty3 from '../../assets/images/43.jpg';
-import forty4 from '../../assets/images/44.jpg';
-import forty5 from '../../assets/images/45.jpg';
-import forty6 from '../../assets/images/46.jpg';
-import forty7 from '../../assets/images/47.jpg';
-import forty8 from '../../assets/images/48.jpg';
-import forty9 from '../../assets/images/49.jpg';
-import fifty from '../../assets/images/50.jpg';
+
 const productsData = [
   { id: 1, name: 'إمبيرال بيج', description: 'رخام أنيق بملمس كلاسيكي ونقوش طبيعية.', image: one, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء إمبيرال بيج' },
   { id: 2, name: 'سيلفيا فاتح', description: 'رخام ناعم بتصميم عصري ولمسة أنيقة.', image: two, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء سيلفيا فاتح' },
@@ -81,25 +64,7 @@ const productsData = [
   { id: 29, name: 'رخام كلكتا مايكل أنجلو', description: 'رخام فاخر بأوردة مميزة وتصميم أنيق.', image: twenty9, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كلكتا مايكل أنجلو' },
   { id: 30, name: 'رخام أرابيسكاتوس', description: 'رخام أنيق بملمس مميز.', image: twenty10, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام أرابيسكاتوس' },
   { id: 31, name: 'رخام كانا', description: 'رخام غني بخطوط ناعمة وتصميم أنيق.', image: thirty1, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كانا' },
-  { id: 32, name: 'بيانكو بيرلا', description: 'رخام لؤلؤي بملمس ناعم وتصميم لامع.', image: thirty2, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء بيانكو بيرلا' },
-  { id: 33, name: 'رخام بدروسي', description: 'رخام وطني متين بملمس أنيق وتصميم مميز.', image: thirty3, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام بدروسي' },
-  { id: 34, name: 'رخام مصيافي فاتح', description: 'رخام وطني ناعم بتصميم كلاسيكي وطابع طبيعي.', image: thirty4, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام مصيافي فاتح' },
-  { id: 35, name: 'رخام مصيافي غامق', description: 'رخام وطني قوي بملمس غني وتصميم أنيق.', image: thirty5, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام مصيافي غامق' },
-  { id: 36, name: 'حجر تدمري', description: 'حجر وطني مميز بملمس خشن وطابع تقليدي.', image: thirty6, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء حجر تدمري' },
-  { id: 37, name: 'رخام كسبي', description: 'رخام وطني أنيق بنقوش طبيعية وتصميم متميز.', image: thirty7, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء رخام كسبي' },
-  { id: 38, name: 'ترافلتينو سوري', description: 'رخام وطني فريد بملمس طبيعي وتصميم أنيق.', image: thirty8, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء ترافلتينو سوري' },
-  { id: 39, name: 'حوض مغسلة 1', image: thirty9 },
-  { id: 40, name: 'حوض مغسلة 2', image: forty },
-  { id: 41, name: 'حوض مغسلة 3', image: forty1 },
-  { id: 42, name: 'حوض مغسلة 4', image: forty2 },
-  { id: 43, name: 'حوض مغسلة 5', image: forty3 },
-  { id: 44, name: 'حوض مغسلة 6', image: forty4 },
-  { id: 45, name: 'حوض مغسلة 7', image: forty5 },
-  { id: 46, name: 'حوض مغسلة 8', image: forty6 },
-  { id: 47, name: 'حوض مغسلة 9', image: forty7 },
-  { id: 48, name: 'حوض مغسلة 10', image: forty8 },
-  { id: 49, name: 'حوض مغسلة 11', image: forty9 },
-  { id: 50, name: 'حوض مغسلة 12', image: fifty },
+  { id: 32, name: 'بيانكو بيرلا', description: 'رخام لؤلؤي بملمس ناعم وتصميم لامع.', image: thirty2, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء بيانكو بيرلا' }
 ];
 
 export default productsData;

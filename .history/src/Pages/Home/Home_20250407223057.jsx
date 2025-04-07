@@ -23,8 +23,10 @@ const Home = ({ cart, setCart, setIsCartOpen }) => {
       ) : (
         <div className="overflow-hidden">
           <Layout>
+          <div className="-mt-4 sm:-mt-6 lg:-mt-8">
+          </div>
             <Slide />
-            <div className="-mt-8 sm:-mt-12 lg:-mt-16">
+            <div className="-mt-4 sm:-mt-6 lg:-mt-8">
               <NationalMarblePage />
             </div>
             <div className="-mt-4 sm:-mt-6 lg:-mt-8">

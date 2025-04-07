@@ -37,18 +37,6 @@ import thirty5 from '../../assets/images/35.jpg';
 import thirty6 from '../../assets/images/36.jpg';
 import thirty7 from '../../assets/images/37.jpg';
 import thirty8 from '../../assets/images/38.jpg';
-import thirty9 from '../../assets/images/39.jpg';
-import forty from '../../assets/images/40.jpg';
-import forty1 from '../../assets/images/41.jpg';
-import forty2 from '../../assets/images/42.jpg';
-import forty3 from '../../assets/images/43.jpg';
-import forty4 from '../../assets/images/44.jpg';
-import forty5 from '../../assets/images/45.jpg';
-import forty6 from '../../assets/images/46.jpg';
-import forty7 from '../../assets/images/47.jpg';
-import forty8 from '../../assets/images/48.jpg';
-import forty9 from '../../assets/images/49.jpg';
-import fifty from '../../assets/images/50.jpg';
 const productsData = [
   { id: 1, name: 'إمبيرال بيج', description: 'رخام أنيق بملمس كلاسيكي ونقوش طبيعية.', image: one, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء إمبيرال بيج' },
   { id: 2, name: 'سيلفيا فاتح', description: 'رخام ناعم بتصميم عصري ولمسة أنيقة.', image: two, whatsappLink: 'https://wa.me/963967428420?text=مرحبًا، أنا مهتم بشراء سيلفيا فاتح' },

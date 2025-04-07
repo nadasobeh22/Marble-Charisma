@@ -6,7 +6,7 @@ import Products from './Pages/Products/Products';
 import ProductDetails from './Pages/ProductDetails/ProductDetails';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
-
+import NationalMarblePage from './Pages/NationalMarblePage/NationalMarblePage';
 
 
 function App() {
